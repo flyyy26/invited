@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import App from './App';
 import GenerateLink from './generate-link';
 import reportWebVitals from './reportWebVitals';
+import GasCarClub from './gas-car-club';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/:name" element={<App />} />
         <Route path="/generate-link" element={<GenerateLink />} />
+        <Route path="/gas-car-club" element={<GasCarClub />} />
       </Routes>
     </Router>
   </React.StrictMode>

@@ -80,6 +80,10 @@ body::-webkit-scrollbar-thumb:hover {
   width: 7.4vw;
   margin-bottom: 4.4vw;
 }
+.invitation_logo{
+  width: 13vw;
+  transform: translateY(4.8vw);
+}
 .section_1 h1{
   text-transform: uppercase;
   font-size: 3vw;
@@ -283,6 +287,10 @@ body::-webkit-scrollbar-thumb:hover {
   .logo_single{
     width: 24vw;
     margin-bottom: 8.4vw;
+  }
+  .invitation_logo{
+    width: 65vw;
+    transform: translateY(21vw);
   }
   .section_1 h1{
     font-size: 9.5vw;
